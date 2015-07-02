@@ -10,7 +10,7 @@ class MyApp < Sinatra::Base
   end
   post '/results' do
    
-#     @trains = 
+    @trains = params[:lines]
     erb :results
   end
 end

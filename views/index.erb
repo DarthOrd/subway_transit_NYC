@@ -2,12 +2,14 @@
 <html>
   <head>
     <title>Pick A Line</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
+    <img src = "https://pbs.twimg.com/profile_images/1510454363/188194_250313209090_764019_n_400x400.jpg">
     <p> Pick a Line Below </p>
     <form action="/results" method="post">
 
-<select name="train">
+<select name="lines">
    <% @subway_lines.each do |name|%>
   <option value="<%=name%>"><%=name%></option> 
   <%end%>
