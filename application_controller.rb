@@ -14,7 +14,7 @@ class MyApp < Sinatra::Base
       @information = Train.new("Inwood", "Far Rockaway-Mott, Lefferts Blvd-Ozone, Rockaway Park-116", "24 hours, Lefferts Service 6am", "Lefferts Service 10pm", "Manhattan Express, Late Night Local")
     end
    
-#     @trains = 
+    @trains = params[:lines]
     erb :results
   end
 end
