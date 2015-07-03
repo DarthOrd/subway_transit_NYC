@@ -59,6 +59,7 @@ class MyApp < Sinatra::Base
       @infomation = 
       
     end
+  end
    
     @trains = params[:lines]
     erb :results
