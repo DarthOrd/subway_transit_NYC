@@ -1,12 +1,14 @@
 body {
     
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/26/Empty_subway_in_NYC.jpg");
+  opacity: 0.6;
     text-align: center;
     color: #000000;
 }
 
 p {
-    color: ;
+    color: black;
+    opacity: 0.8;
     margin-left: 20px;
     text-align: center;
     font-size: 100px;
