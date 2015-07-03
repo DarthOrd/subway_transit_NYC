@@ -1,14 +1,14 @@
 body {
-    
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/26/Empty_subway_in_NYC.jpg");
+    background-image: url("http://web.mta.info/maps/images/subway_2100x2528.jpg");
     text-align: center;
     color: #006600;
 }
 
 p {
-    color: navy;
+    color: white;
     margin-left: 20px;
     text-align: center;
+  font-size: 60px
 }
 
 img {

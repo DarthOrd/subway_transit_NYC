@@ -12,7 +12,7 @@ class MyApp < Sinatra::Base
     @form_data = params[:lines]
     puts @form_data
     if @form_data == "A"
-      @information = Train.new("Inwood", "Far Rockaway-Mott, Lefferts Blvd-Ozone, Rockaway Park-116", "24 hours, Lefferts Service 6am", "Lefferts Service 10pm", "Manhattan Express, Late Night Local")
+      @information = Train.new("Inwood-207", "Far Rockaway-Mott, Lefferts Blvd-Ozone, Rockaway Park-116", "24 hours, Lefferts Service 6am", "Lefferts Service 10pm", "Manhattan Express, Late Night Local")
     elsif @form_data == "B"
       @information = Train.new("145th Street", "Brighton Beach", "6am", "11pm", "Rush Hour extention to Bedford Park Blvd. Weekday Service Only, No Late Night. Express Brooklyn, Manhattan, Local in Bronx.")
     elsif @form_data == "C"
@@ -52,11 +52,11 @@ class MyApp < Sinatra::Base
       elsif @form_data == "4"
       @information = Train.new("New Lots", "Woodlawn", "24hrs", "24hrs", "138th-Grand Concourse full-time except am Manhattan bound rush hour, Bronx bound pm rush hour. Express Service in Manhattan, late night local, Bronx local. 167th to Burnside non-stop 9-11am and 6:30-8:30pm.")
       elsif @form_data == "5"
-      @information = Train.new("Nereid or Dyre", "Brooklyn College (Weekdays), Bowling Green (Weekends), 180th (Nights)", "24hrs", "Nereid Service Rush Hour", "Lexington Express")
+      @information = Train.new("Nereid Avenue or Eastchester-Dyre", "Brooklyn College (Weekdays), Bowling Green (Weekends), 180th (Nights)", "24hrs", "Nereid Service Rush Hour 6:30-9:30am/3:30-8pm", "Lexington Express, Nights only between 180th and Dyre.")
          elsif @form_data == "6"
       @information = Train.new("Pelham Bay or Parkchester", "Brooklyn Bridge", "24hrs", "24hrs", "Local all times, Peak Rush Hour Pelham Bay to 138th")
          elsif @form_data == "7"
-        @information = Train.new("Times Square", "Flushing Main", "24hrs", "24hrs", "Express Peak Rush Hour Main to Queensboro. Weekend Construction often. Take LIRR")
+        @information = Train.new("Times Square", "Flushing Main", "24hrs", "24hrs", "Express Peak Rush Hour Main to Queensboro.")
       end
 
    
