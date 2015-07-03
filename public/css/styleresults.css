@@ -1,0 +1,17 @@
+body {
+    
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/26/Empty_subway_in_NYC.jpg");
+    text-align: center;
+    color: #006600;
+}
+
+p {
+    color: navy;
+    margin-left: 20px;
+    text-align: center;
+}
+
+img {
+  text-align: center;
+  width: 600px
+}

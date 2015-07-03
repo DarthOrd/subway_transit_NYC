@@ -6,13 +6,14 @@ body {
 }
 
 p {
-    color: navy;
+    color: ;
     margin-left: 20px;
     text-align: center;
+    font-size: 100px;
 }
 
 img {
   text-align: center;
-  width: 600px
+  width: 300px;
 }
 
