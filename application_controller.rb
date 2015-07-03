@@ -30,27 +30,27 @@ class MyApp < Sinatra::Base
         elsif @form_data ==  "L"
       @information = Train.new("Canarsie-Rockaway Parkway", "8th Avenue-14th Street", "24 hours", "24 hours", "14th Street Crosstown")
         elsif @form_data == "M"
-      @infomation = 
+      @infomation = Train.new("Middle Village-Metropolitan", "Forest Hills-71st, Essex Street (Weekends)", "24 hours", "24 hours", "Late Night Service between Middle Village and Myrtle (J Train)")
       elsif @form_data == "N"
-      @infomation = 
+      @infomation = Train.new("Astoria Ditmars", "Coney Island", "24 hrs", "24hrs", "Express Brooklyn, Local Manhattan, via Manhattan Bridge. Late Nights Local via Downtown Manhattan")
       elsif @form_data == "Q"
-      @infomation = 
+      @infomation = Train.new("Astoria Ditmars or 57th-7ave", "Coney Island", "24hrs", "24hrs", "Express Manhattan, Local Brooklyn. Rush Hour service to Astoria, Local during nights.")
       elsif @form_data == "R"
-      @infomation = 
+      @infomation = Train.new("Bay Ridge-95th", "Forest Hills-71st", "24hrs", "Shuttle between 95th and 36th between 12am-6am", "Local service")
     elsif @form_data == "Franklin Shuttle"
-      @infomation = 
+      @infomation = Train.new("Prospect Park", "Franklin Avenue-Fulton", "24hrs", "24hrs", "Shuttle serving Central Brooklyn")
     elsif @form_data == "42nd Street Shuttle"
-      @infomation = 
+      @infomation = Train.new("Times Square", "Grand Central", "6am", "12am", "Use (7) Train at Night")
     elsif @form_data == "Rockaway Shuttle"
-      @infomation = 
+      @infomation = Train.new("Rockaway Park-116", "Broad Channel", "24hrs", "24hrs", "Full-Time service to Rockaway Park-Seaside")
       elsif @form_data == "1"
-      @infomation = 
+      @infomation = Train.new("South Ferry", "Van Cortland-242", "24hrs", "24hrs", "Local service")
       elsif @form_data == "2"
-      @infomation = 
+      @infomation = Train.new("Flatbush-Brooklyn College", "Wakefield-241", "24hrs", "24hrs", "Local in Brooklyn, Express in Manhattan. Late night local")
       elsif @form_data == "3"
-      @infomation = 
+      @infomation = Train.new("New Lots", "Harlem-148th", "24hrs", "24hrs", "Late night")
       elsif @form_data == "4"
-      @infomation = 
+      @infomation = Train.new("New Lots", "Woodlawn", "24hrs", "24hrs", "138th-Grand Concourse full-time except am Manhattan bound rush hour, Bronx bound pm rush hour. Express Service in Manhattan, late night local, Bronx local. 167th to Burnside non-stop 9-11am and 6:30-8:30pm.")
       elsif @form_data == "5"
       @infomation =
          elsif @form_data == "6"

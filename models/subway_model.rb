@@ -26,6 +26,6 @@ shuttle_42nd = Train.new("Times Square", "Grand Central", "6am", "12am", "Use (7
 rockshuttle = Train.new("Rockaway Park-116", "Broad Channel", "24hrs", "24hrs", "Full-Time service to Rockaway Park-Seaside")
 one_train = Train.new("South Ferry", "Van Cortland-242", "24hrs", "24hrs", "Local service")
 two_train = Train.new("Flatbush-Brooklyn College", "Wakefield-241", "24hrs", "24hrs", "Local in Brooklyn, Express in Manhattan. Late night local")
-three_train = Train.new("New Lots", "Harlem-148th", "24hrs", "24hrs", "Late night ")
+three_train = Train.new("New Lots", "Harlem-148th", "24hrs", "24hrs", "Late night")
 four_train = Train.new("New Lots", "Woodlawn", "24hrs", "24hrs", "138th-Grand Concourse full-time except am Manhattan bound rush hour, Bronx bound pm rush hour. Express Service in Manhattan, late night local, Bronx local. 167th to Burnside non-stop 9-11am and 6:30-8:30pm.")
 five_train = Train.new("")
