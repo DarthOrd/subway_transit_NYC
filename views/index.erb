@@ -9,7 +9,7 @@
     <p> Pick a Line Below </p>
     <form action="/results" method="post">
 
-<select name="lines">
+<select name="train">
    <% @subway_lines.each do |name|%>
   <option value="<%=name%>"><%=name%></option> 
   <%end%>
